@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + TS</title>
+    <script type="module" crossorigin src="/assets/index-47181851.js"></script>
+    <link rel="stylesheet" href="/assets/index-12a2fc92.css">
+  </head>
+  <body>
+    
+    <div id="toolbar">
+      <button id="add">Add</button>
+      <button id="delete">Delete</button>
+    </div>
+    <div id="viewport">
+      <div id="view"></div>
+      <div id="editor">
+        <div class="setting-container">
+          <label>Hue:</label>
+          <input type="number" min="0" max="360" value="0" class="textfield" id="huetextfield">
+          <input type="range" min="0" max="360" value="0" class="slider" id="hueslider">
+        </div>
+        <div class="setting-container">
+          <label>Sat:</label>
+          <input type="number" min="0" max="100" value="0" class="textfield" id="sattextfield">
+          <input type="range" min="0" max="100" value="0" class="slider" id="satslider">
+        </div>
+        <div class="setting-container">
+          <label>Lum:</label>
+          <input type="number" min="0" max="100" value="0" class="textfield" id="lumtextfield">
+          <input type="range" min="0" max="100" value="0" class="slider" id="lumslider">
+        </div>
+      </div>
+    </div>
+    <div id="swatchlist"></div>  
+    <div id="statusbar">
+      <p id="status"></p>
+    </div>
+  </body>
+</html>
