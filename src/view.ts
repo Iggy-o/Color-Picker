@@ -1,6 +1,6 @@
 import { SwatchListController, ToolbarController } from "./controller";
 import { Model } from "./model";
-import { Color, colorToString, randomColor } from "./color";
+import { colorToString } from "./color";
 
 export interface Observer {
     update(): void;
