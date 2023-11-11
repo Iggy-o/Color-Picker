@@ -21,7 +21,7 @@ export class Model extends Subject {
 
     public defaultSwatches: number = 10;
     public minSwatches: number = 1;
-    public maxSwatches: number = 16;
+    public maxSwatches: number = 1000;
 
     constructor() {
         super();
