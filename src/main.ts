@@ -49,11 +49,6 @@ function totalBlocks(): number {
 
 let controlsDisabled: boolean = false;
 
-function toggleSwatchMove() {
-    console.log("Working!");
-    controlsDisabled = !controlsDisabled;
-}
-
 document.onclick = () => {
     let swatchlist = document.getElementById("swatchlist") as HTMLDivElement;
     let inputs = document.getElementsByTagName("input");
