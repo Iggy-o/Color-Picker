@@ -5,8 +5,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vite + TS</title>
-    <script type="module" crossorigin src="./assets/index-47181851.js"></script>
-    <link rel="stylesheet" href="./assets/index-12a2fc92.css">
+    <script type="module" crossorigin src="./assets/index-49edb4ad.js"></script>
+    <link rel="stylesheet" href="./assets/index-32145db4.css">
   </head>
   <body>
     
@@ -32,9 +32,15 @@
           <input type="number" min="0" max="100" value="0" class="textfield" id="lumtextfield">
           <input type="range" min="0" max="100" value="0" class="slider" id="lumslider">
         </div>
+        <div class="color-container">
+          <p id="HEX"></p><p>|</p><p id="RGB"></p><p>|</p><p id="HSL">
+        </div>
+        <div class="color-container" id="name-container" style="display: none">
+          <p id = "Generic-Name"></p>
+        </div>
       </div>
     </div>
-    <div id="swatchlist"></div>  
+    <div id="swatchlist" tabindex="1"></div>  
     <div id="statusbar">
       <p id="status"></p>
     </div>
